@@ -3,7 +3,7 @@ module github.com/RevikaLabs/sqlq/promq
 go 1.27
 
 require (
-	github.com/RevikaLabs/sqlq v0.0.0-00010101000000-000000000000
+	github.com/RevikaLabs/sqlq v0.1.0
 	github.com/prometheus/client_golang v1.25.0
 )
 
@@ -19,5 +19,3 @@ require (
 	golang.org/x/sys v0.48.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 )
-
-replace github.com/RevikaLabs/sqlq => ../
