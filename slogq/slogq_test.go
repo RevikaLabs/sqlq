@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RevikaLabs/sqlq"
-	"github.com/RevikaLabs/sqlq/slogq"
+	"go.revika.io/sqlq"
+	"go.revika.io/sqlq/slogq"
 )
 
 func TestEnd(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/RevikaLabs/sqlq"
+	"go.revika.io/sqlq"
 )
 
 type options struct {

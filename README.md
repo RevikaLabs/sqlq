@@ -97,14 +97,14 @@ Things to know:
 
 ### slogq
 
-`github.com/RevikaLabs/sqlq/slogq` uses only the standard library. Errors and
+`go.revika.io/sqlq/slogq` uses only the standard library. Errors and
 timeouts are logged at Error, and successful or empty operations slower than
 `SlowerThan` at Warn. Fast empty results and canceled operations are not
 logged.
 
 ### promq
 
-`github.com/RevikaLabs/sqlq/promq` is a separate module, so the core does not
+`go.revika.io/sqlq/promq` is a separate module, so the core does not
 depend on Prometheus. It adds a histogram
 `sqlq_duration_seconds{name, kind, status}`:
 

@@ -1,10 +1,10 @@
-module github.com/RevikaLabs/sqlq/promq
+module go.revika.io/sqlq/promq
 
 go 1.27
 
 require (
-	github.com/RevikaLabs/sqlq v0.1.0
 	github.com/prometheus/client_golang v1.25.0
+	go.revika.io/sqlq v0.1.1
 )
 
 require (

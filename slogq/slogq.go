@@ -12,7 +12,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/RevikaLabs/sqlq"
+	"go.revika.io/sqlq"
 )
 
 // Option configures a Tracer.

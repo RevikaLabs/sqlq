@@ -1,4 +1,4 @@
-module github.com/RevikaLabs/sqlq
+module go.revika.io/sqlq
 
 go 1.27
 

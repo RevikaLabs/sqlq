@@ -12,7 +12,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/jmoiron/sqlx"
 
-	"github.com/RevikaLabs/sqlq"
+	"go.revika.io/sqlq"
 )
 
 // recorder logs Start/End calls of one tracer as "start:<name>" and

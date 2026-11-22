@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 
-	"github.com/RevikaLabs/sqlq"
-	"github.com/RevikaLabs/sqlq/promq"
+	"go.revika.io/sqlq"
+	"go.revika.io/sqlq/promq"
 )
 
 func TestMetrics(t *testing.T) {
